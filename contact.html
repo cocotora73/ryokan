@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>西村旅館　客室</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="global-container">
+        <div id="container">
+            <header class="header">
+                <ul class="header-ul">
+                    <li class="tel">TEL: 0120-000-000</li>
+                    <li class="reservation-header"><a href="reserve.html">ご予約</a></li>
+                </ul>
+            </header>
+                
+            <header class="grid btn-left">
+                <button class="mobile-menu__btn mobile-menu__btn2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </header>
+
+            <div class="gloval-navi">
+                <div class="navi">
+                    <ul class="navigation">
+                        <li class="navigation-li">
+                            <a href="index.html" class="navi-btn animate-title">トップ</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="guestroom.html" class="navi-btn animate-title-2">客室</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="cuisine.html" class="navi-btn animate-title-3">食事</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="about.html" class="navi-btn animate-title-4">創業者について</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="access.html" class="navi-btn animate-title-5">交通案内</a>
+                        </li>
+                        <li class="navigation-li">
+                            <a href="contact.html" class="navi-btn animate-title-6">お問い合わせ</a>
+                        </li>
+                    </ul>
+
+                    <button>
+                        <a href="reserve.html" class="navi-btn reserve-btn">お部屋のご予約</a>
+                    </button> 
+                </div>
+            </div>
+
+            <main class="wrapper">
+                <h1 class="wrapper-title">お問い合わせ</h1>
+                <section id="contact">
+                    <div class="enter">お問い合わせ内容をご記入ください。</div>
+                    <form action="#" name="contact-form" class="validationForm" novalidate="novalidate">
+                        <dl>
+                            <div class="contact-flex">
+                                <dt>
+                                    <label for="name">
+                                        お名前
+                                        <span class="badge">必須</span>
+                                    </label>
+                                </dt>
+                                <dd><input type="text" id="name" class="required" name="your-name"></dd>
+                            </div>
+                            
+                            <div class="contact-flex">
+                                <dt>
+                                    <label for="email">
+                                        メールアドレス
+                                        <span class="badge">必須</span>
+                                    </label>
+                                </dt>
+                                <dd><input type="email" id="email" class="required email" name="your-email"></dd>
+                            </div>
+                            
+                            <div class="contact-flex">
+                                <dt><label for="post">郵便番号</label></dt>     
+                                <dd><input type="text" id="post" name="your-post"></dd>
+                            </div>
+                                
+                            <div class="contact-flex">
+                                <dt><label for="address">住所</label></dt>  
+                                <dd><input type="text" id="address" name="your-address"></dd>
+                            </div>
+                            
+                            <div class="contact-flex">
+                                <dt>
+                                    <label for="tel-2">
+                                        電話番号
+                                        <span class="badge">必須</span>
+                                    </label>
+                                </dt>
+                                <dd><input type="tel" id="tel"  class="required tel-2" name="your-tel"></dd> 
+                            </div>
+                            
+                            <div class="textarea contact-flex">
+                                <dt>
+                                <label for="message">
+                                    お問い合わせ内容
+                                    <span class="badge">必須</span>
+                                </label> 
+                                </dt>
+                                <dd><textarea class="required"></textarea></dd> 
+                            </div>
+                        </dl>
+                        <button class="transmission" type="submit">送信</button>
+                    </form>
+                </section>
+            </main>
+
+            <footer class="footer">
+                <div class="inner">
+                    <ul class="footer-navi">
+                        <li>
+                            <a href="index.html">トップ</a>
+                        </li>
+                        <li>
+                            <a href="gvestroom.html">客室</a>
+                        </li>
+                        <li>
+                            <a href="cuisine.html">食事</a>
+                        </li>
+                        <li>
+                            <a href="access.html">交通案内</a>
+                        </li>
+                        <li>
+                            <a href="about.html">創業者について</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">お問い合わせ</a>
+                        </li>
+                    </ul>          
+                    <address>
+                        〒786-0315&ensp;高知県高岡郡四万十町下津井322-3
+                        <br>
+                        322-3, Shimotui, Shimanto cho, Takaoka gun, Kochi Ken, 786-0315, Japan 
+                        <br>
+                        TEL: 0120-000000
+                        <br>
+                    </address>
+                    <div class="reservation"><a href="reserve.html">お部屋のご予約</a></div>
+                </div>
+                <small>© 2022 nishimura ryokan</small>
+            </footer>
+        </div> 
+    </div>
+</div>
+<script src="main.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
