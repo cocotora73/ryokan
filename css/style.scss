@@ -541,7 +541,6 @@ concept
 }
 
 .menu-section-contents {
-    width: 100%;
     writing-mode: vertical-rl;
     margin: 0 auto;
     margin-top: 35px;
@@ -859,6 +858,10 @@ erroe-check
             margin-top: 30px;
             width: 200px;
         }
+    }
+
+    .menu-section-contents {
+        line-height: 35px;
     }
 
     /* ========== contact ========== */

@@ -778,7 +778,6 @@ concept
 }
 
 .menu-section-contents {
-  width: 100%;
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   margin: 0 auto;
@@ -1044,6 +1043,9 @@ erroe-check
   .menu-example .menu-read {
     margin-top: 30px;
     width: 200px;
+  }
+  .menu-section-contents {
+    line-height: 35px;
   }
   /* ========== contact ========== */
   dl .contact-flex {
